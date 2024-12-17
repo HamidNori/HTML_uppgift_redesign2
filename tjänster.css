@@ -126,6 +126,8 @@ body {
     width: 900px;
     height: auto;
     transition: ease 0.5s;
+    display: flex;
+    align-items: center;
 }
 
 .worldmap:hover {
@@ -193,4 +195,36 @@ body {
 
 .footer-bottom p {
     margin: 0;
+}
+
+@media (max-width: 760px) {
+    body {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto 1fr auto auto;
+        grid-template-areas:
+            "header"
+            "nav"
+            "main"
+            "sidebar"
+            "footer";
+    }
+
+    .nav {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .main, .sidebar {
+        padding: 15px;
+
+    }
+    
+    .worldmap {
+        width: 480px;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
 }

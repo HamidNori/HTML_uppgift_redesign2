@@ -240,3 +240,26 @@ body {
 .footer-bottom p {
     margin: 0;
 }
+
+@media (max-width: 1000px) {
+    body {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto 1fr auto auto;
+        grid-template-areas:
+            "header"
+            "nav"
+            "main"
+            "sidebar"
+            "footer";
+    }
+
+    .nav {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .main, .sidebar {
+        padding: 15px;
+    }
+    
+}

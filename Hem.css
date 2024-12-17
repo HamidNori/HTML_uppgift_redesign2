@@ -7,6 +7,7 @@
     --color-text-dark: #293241; 
     --color-text-light: #ffffff; 
     --box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    --box-shadow-intense: 0 4px 8px rgba(0, 0, 0, 0.6);
 }
 
 
@@ -201,26 +202,31 @@ body {
 
 .bild1 {
     grid-area: bild1;
+    border-radius: 50px;
     transition: ease 0.4s;
 }
 
 
 .bild2 {
+    border-radius: 50px;
     grid-area: bild2;
     transition: ease 0.4s;
 }
 
 .bild3 {
+    border-radius: 50px;
     grid-area: bild3;
     transition: ease 0.4s;
 
 }
 .bild4 {
+    border-radius: 50px;
     grid-area: bild4;
     transition: ease 0.4s;
 
 }
 .bild5 {
+    border-radius: 50px;
     grid-area: bild5;
     transition: ease 0.4s;
 
@@ -228,22 +234,29 @@ body {
 
 .bild1:hover{
     transform: scale(0.99);
+    box-shadow: var(--box-shadow-intense);
+    border-radius: 50px;
 
 }
 .bild2:hover{
     transform: scale(0.99);
+    box-shadow: var(--box-shadow-intense);
+
 
 }
 .bild3:hover{
     transform: scale(0.99);
+    box-shadow: var(--box-shadow-intense);
 
 }
 .bild4:hover{
     transform: scale(0.99);
+    box-shadow: var(--box-shadow-intense);
 
 }
 .bild5:hover{
     transform: scale(0.99);
+    box-shadow: var(--box-shadow-intense);
 
 }
 
