@@ -169,6 +169,15 @@ body {
     font-size: 30px;
 }
 
+.Others {
+    color: #ee6c4d;
+    transition: ease 0.5s;
+} 
+
+.Others:hover {
+    background-color: var(--color-black);
+}
+
 .footer {
     grid-area: footer;
     background-color: var(--color-black);
