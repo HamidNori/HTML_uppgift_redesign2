@@ -123,7 +123,7 @@ body {
 }
 
 .worldmap {
-    width: 900px;
+    width: 700px;
     height: auto;
     transition: ease 0.5s;
     display: flex;
@@ -220,7 +220,7 @@ body {
     }
     
     .worldmap {
-        width: 480px;
+        width: 340px;
         height: auto;
         display: flex;
         justify-content: center;

@@ -81,7 +81,6 @@ body {
 }
 
 .kontakt-container {
-    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -261,5 +260,7 @@ body {
     .main, .sidebar {
         padding: 15px;
     }
+    
+    
     
 }
